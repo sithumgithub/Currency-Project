@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import InputBox from './components/InputBox'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
     >
 
     <h1>Test For tailwind</h1>
+    <InputBox></InputBox>
     </div>
   )
 }
